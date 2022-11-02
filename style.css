@@ -1,0 +1,115 @@
+
+@media all{
+  h1,h2{font-family:"LatoWeb", sans-serif;font-weight:500;font-style:bold;color:inherit;text-rendering:optimizeLegibility;margin-top:0;margin-bottom:0.5rem;line-height:1.4;}
+  h1{font-size:1.875rem;}
+  @media screen and (min-width: 36em){
+  h1{font-size:2.5rem;}
+  }
+  h1,h2{text-transform:uppercase;color:#333940;font-weight:600;letter-spacing:2px;}
+  body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+  @media screen and (min-width: 64em){
+  .content-grid{max-width:calc(1200px - 4rem);}
+  }
+  @media screen and (max-width: 63.9375em){
+  .content-grid{max-width:calc(1024px);}
+  }
+  @media screen and (max-width: 47.9375em){
+  .content-grid{max-width:calc(768px);}
+  }
+  @media screen and (max-width: 35.9375em){
+  .content-grid{max-width:576px;}
+  }
+  @media screen and (min-width: 36em){
+  .content-grid{margin:0 auto;}
+  #content-wrapper{min-height:59.375rem;}
+  }
+  @media screen and (max-width: 35.9375em){
+  .content-grid{margin:0 auto;max-width:100%;}
+  }
+  header.primary-header{font-family:"LatoWeb", "Lato", "Arial", sans-serif;background-color:#009FC7;display:-webkit-box;display:flex;-webkit-box-align:end;align-items:flex-end;height:7.5rem;}
+  @media screen and (max-width: 63.9375em){
+  header.primary-header{-webkit-box-align:center;align-items:center;height:4.5rem;}
+  }
+  header.primary-header h1{font-family:"LatoWeb", "Lato", "Arial", sans-serif;font-weight:400;text-transform:uppercase;color:#FFF;line-height:1;letter-spacing:1px;margin:0;}
+  header.primary-header h1{font-size:2rem;}
+  @media screen and (max-width: 47.9375em){
+  header.primary-header h1{font-size:1.5rem;}
+  }
+  body{max-width:100%;height:100%;}
+  body{min-height:100%;}
+  .off-canvas-wrapper{background-color:white;min-height:100%;}
+  p{font-weight:400;letter-spacing:1px;color:#333940;margin-bottom:1rem;line-height:1.5;}
+  ::-ms-clear{display:none;}
+  input[type=submit]{cursor:pointer;background-color:#1B6C92;color:white;border-color:#1B6C92;}
+  input[type=submit]{width:100%;}
+  .primary-header+nav.top-bar{margin-bottom:3rem;}
+  header{padding-top:1rem;}
+  header h1{font-size:2rem;}
+  header h1{text-transform:uppercase;margin:0;line-height:1;margin-bottom:2rem;font-family:"LatoWeb", sans-serif;letter-spacing:3px;}
+  header .content-grid{display:-webkit-box;display:flex;flex-wrap:nowrap;-webkit-box-align:end;align-items:flex-end;background-size:auto 100%;}
+  header.primary-header{background-color:#009FC7;padding:1rem 0;font-family:"LatoWeb", sans-serif;z-index:3;position:relative;margin-top:0rem;}
+  @media screen and (min-width: 64em){
+  header.primary-header{padding:0;}
+  header.primary-header .content-grid{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;min-height:10rem;}
+  }
+  header.primary-header h1{color:white;font-weight:400;}
+  header p:first-child::before{display:block;width:100%;height:1.5rem;content:'';}
+  header.primary-header div.content-grid{min-height:auto;}
+  @media screen and (min-width: 64em){
+  header.primary-header div.content-grid{padding-top:3rem;padding-bottom:0rem;}
+  }
+  header.primary-header{-webkit-box-align:end;align-items:flex-end;}
+  header.primary-header h1{font-size:2rem;text-transform:capitalize;}
+  @media screen and (max-width: 63.9375em){
+  header.primary-header{-webkit-box-align:center;align-items:center;max-height:5.5rem;padding-bottom:0;padding-top:0;}
+  header.primary-header h1{font-size:1.125rem;}
+  }
+  #content-wrapper{min-height:31rem;}
+  @media screen and (min-width: 64em){
+  #content-wrapper{min-height:45rem;}
+  }
+  .mobile-navigation .position-left{left:-11rem;}
+  #main-nav #mr-cooper-logo{height:100%;}
+  .content-grid{margin:0 auto;padding:0 1rem;}
+  @media screen and (min-width: 48em){
+  .content-grid{max-width:calc(1024px);}
+  }
+  @media screen and (min-width: 64em){
+  .content-grid{max-width:calc(1200px);padding:0 2rem;}
+  }
+  @media only screen and (min-width: 1380px){
+  .content-grid{max-width:calc(1200px);padding:0 1rem;}
+  }
+  }
+  #content-wrapper{min-height:0;}
+  #content-wrapper{min-height:0;}
+  @media screen and (min-width: 1024px){
+  #non-sticky-top-nav-header{height:5rem;}
+  }
+  @media screen and (max-width: 1023px){
+  #non-sticky-top-nav-header{display:none;}
+  }
+  @media screen and (min-width: 768px){
+  #content-wrapper{min-height:7rem;}
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+  #content-wrapper{min-height:0;}
+  }
+  @media screen and (max-width: 575px){
+  input[type=submit]{width:calc(100% - 2.5rem);margin:auto;}
+  }
+  /*! CSS Used from: https://cms.mrcooper.com/wp-content/themes/mr-cooper/style.css?ver=5.4.2 ; media=all */
+  @media all{
+  body{margin:0;-webkit-font-smoothing:antialiased;}
+  *,*:before,*:after{box-sizing:inherit;}
+  body{background:#fff;}
+  body{font-family:'LatoWeb', sans-serif;font-size:16px;}
+  h1,h2{font-family:'LatoWeb', sans-serif;color:#004261;margin:1% 0;line-height:125%;letter-spacing:1px;}
+  h1{font-size:2.5rem;}
+  @media screen and (max-width: 1024px){
+  .content-grid{max-width:calc(1200px);padding:0 2rem;}
+  }
+  @media screen and (max-width: 768px){
+  h1{font-size:2rem;}
+  }
+  }
